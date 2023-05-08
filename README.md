@@ -1,5 +1,5 @@
 # final_project
-##DS 210 FINAL PROJECT
+## DS 210 FINAL PROJECT
 
 ### Introduction:
 For my project, I chose to study the betweenness centrality of the english wikipedia database. The dataset I used was a snapshot taken of the website in 2013 by Stanford: https://snap.stanford.edu/data/enwiki-2013.html. This dataset contained articles and the hyperlinks within them to other articles. In total, there were 	4203323 nodes and	101311614 directed edges. From the dataset, there were two files, "enwiki-2013.txt" and "enwiki-2013-names.csv", where the txt file contained the nodes and directed edges, and the csv represented a hash map from the nodes to wikipedia articles. 
