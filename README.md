@@ -13,6 +13,7 @@ The main challenge I had to overcome was the size of the network. I do not have 
 ### Conclusions:
 From a random sample of 1000 nodes, I produced the following centrality measure:
 ![result](https://user-images.githubusercontent.com/132901881/236840170-fd97bb7c-08e6-4777-b6a1-cfe95f97845d.png)
+
 From these results, the node with the highest centrality measure was a between a plethora of nodes. Unfortunately, this is the result of computing centrality for only a random sample, where 
 Additionally, from experimentation, I believe the complexity of at least the sample size is O(n^2). Computing 100 samples took approximately 30 minutes, whereas I predicted the total duration of computing 200 samples and 400 samples to be approximately two hours and eight hours respectively. I believe that my algorithm could be used to compute the total centrality of wikipedia if given enough time and parallel cores. 
 
