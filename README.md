@@ -11,7 +11,7 @@ First, I had to read the dataset into a usable format, where I converted it into
 The main challenge I had to overcome was the size of the network. I do not have access to a super computer, so I was limited by processing power and time. Running my code on the entire dataset was absolutely infeasible, so I decided to perform random sampling. Unfortunately, this loses the structure of the original network, so my conclusions are only useful in analyzing the structure of the random sample. However, I still believed this could produce interesting results.
 
 ### Conclusions:
-From a random sample of 1000 nodes, I produced the following centrality measure:
+From a random sample of 100 nodes, I produced the following centrality measure:
 ![result](https://user-images.githubusercontent.com/132901881/236840170-fd97bb7c-08e6-4777-b6a1-cfe95f97845d.png)
 
 From these results, the node with the highest centrality measure was a between a plethora of nodes. Unfortunately, this is the result of computing centrality for only a random sample, where 
